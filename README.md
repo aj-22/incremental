@@ -6,3 +6,9 @@ This git repository contains a list of scripts related to incremental updates in
 
 
 All the code has been tried and tested in Cloudera Quickstart VM.
+
+
+PDF contains all the code with explanation. 
+
+
+Bonus : Executing IMPALA Queries in HUE/OOZIE
