@@ -72,7 +72,7 @@ All the options will have to be entered as argument in Sqoop action
 		/user/cloudera/hive/hive-site.xml
 
 
-It must be noted that create-hive-table doesn't work with OOZIE. However, hive-import may work and we can use this facility. However, here we have uploaded data into HDFS and we will create an external table on top of it. Specifying, --merge-key primary_key is required so as to execute incremental update the second time. (Meaning first incremental update may work without specifying merge-key). Everything else is same as SQOOP command mentioned in Hortonworks 4 Steps Incrmental Guide.
+It must be noted that create-hive-table doesn't work with OOZIE. However, hive-import may work and we can use this facility. However, here we have uploaded data into HDFS and we will create an external table on top of it. Specifying, --merge-key primary_key is required so as to execute incremental update the second time. (Meaning first incremental update may work without specifying merge-key). Everything else is same as SQOOP command mentioned in Hortonworks 4 Steps Incrmental Guide. https://hortonworks.com/blog/four-step-strategy-incremental-updates-hive/
 
 3) HIVE Action to create incremental table
 
