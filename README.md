@@ -11,4 +11,4 @@ All the code has been tried and tested in Cloudera Quickstart VM.
 PDF contains all the code with explanation. 
 
 
-Bonus : Executing IMPALA Queries in HUE/OOZIE
+Additional Content : Executing IMPALA Queries in HUE/OOZIE
